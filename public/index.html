@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Inventory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="product-header">
+    <h1>Simple Inventory App</h1>
+  </div>
+
+  <div class="product-container">
+    <input id="name" placeholder="Product name">
+    <input id="type" placeholder="Type">
+    <input id="price" placeholder="Price">
+    <input id="quantity" placeholder="Quantity">
+    <button onclick="addProduct()">Add Product</button>
+  </div>
+
+  <div class="product-list">
+    <button onclick="loadProduct()">Load Product</button>
+    <ul id="productList"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
