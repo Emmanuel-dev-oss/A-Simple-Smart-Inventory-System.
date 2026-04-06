@@ -4,6 +4,10 @@ body {
   box-sizing: border-box;
   font-family: Arial;
   padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
